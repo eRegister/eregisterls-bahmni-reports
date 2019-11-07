@@ -16,6 +16,22 @@
                 }
         },
 
+        "txcurrcombinedlist_pepfar": {
+                "name": "PEPFAR Current on ART Detailed (List)",
+                "type": "MRSGeneric",
+                "config": {
+                  "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txcurr_combined_list.sql"
+                }
+        },
+
+
+        "txcurrcombinedpivot_pepfar": {
+                "name": "PEPFAR Current on ART Detailed (Pivot)",
+                "type": "MRSGeneric",
+                "config": {
+                  "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/egpaf/txcurr_combined_pivot.sql"
+                }
+        },		
 
         "currentonart_jointmissedListSQL": {
                 "name": "ART clients with Appointment Status (List)",
